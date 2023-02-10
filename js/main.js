@@ -28,6 +28,8 @@ const algasNori = new Producto("Algas Nori x100", 1200);
 const hierbaMenta = new Producto("Hierba de menta x100gr", 250);
 const hierbaCedron = new Producto("Hierba de cedronx100gr", 300);
 
+// COMIENZO DEL PROGRAMA //
+
 alert("¡Bienvenido a la Herboristeria Andante! ¿Qué desea comprar hoy?");
 
 let seguirComprando = true;
