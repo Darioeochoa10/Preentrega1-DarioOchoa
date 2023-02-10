@@ -21,6 +21,8 @@ const calcularTotal = () => {
   return total;
 };
 
+// AQUI VAMOS A DESIGNAR LOS PRODUCTOS //
+
 const teVerde = new Producto("Te verde", 450);
 const teRojo = new Producto("Te rojo", 420);
 const arrozKoshihikari = new Producto("Arroz Koshihikari", 300);
@@ -102,6 +104,8 @@ while (seguirComprando && seguirComprando != 7) {
       alert("Por favor, elija una opción válida");
   }
 }
+
+// AQUI EL TOTAL DE LA COMPRA REALIZADA //
 
 let total = 0;
 for (let producto of carrito) {
